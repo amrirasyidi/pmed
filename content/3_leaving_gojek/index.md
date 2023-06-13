@@ -3,6 +3,9 @@ title = "Leaving Gojek"
 date = 2023-04-24
 authors = ["Amri Rasyidi"]
 description = "Imagine this…You work in a well-known decacorn. Your salary is more than enough. The culture fit yours. You have a supportive managers and team. It offers many incentives for personal growth and vice versa, personal growth = more incentive.On paper, this is perfect, who would like to resign?"
+
+# categories = ["Life 🌇", "Professional 🤓"]
+# tags = ["English 🇬🇧", "Unemployment Arc🔥", "Career Retro"]
 +++
 
 <figure style="text-align:center">{{ image( img="3_1_joker.gif", alt="bar graph", style="border-radius: 0px; width: 100%;" ) }}</figure>

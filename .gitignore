@@ -1,2 +1,4 @@
 .idea/
 public
+static
+*.code-workspace

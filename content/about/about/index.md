@@ -30,6 +30,11 @@ front_page = false
                 <i class="fab fa-instagram fa-2x"></i>
             </a>
         </th>
+        <th>
+            <a href="https://discord.com/users/440182319761063936" target="_blank">
+                <i class="fa-brands fa-discord fa-2xl"></i>
+            </a>
+        </th>
     </table>
 </div>
 
