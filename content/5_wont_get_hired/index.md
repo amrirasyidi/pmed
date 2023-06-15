@@ -2,7 +2,7 @@
 title = "Why I Won’t Get Hired (As a Data Scientist)?"
 date = 2023-06-16
 authors = ["Amri Rasyidi"]
-description = "Read my retro on how to apply for a job"
+description = "Read my retro on how to apply for a data job."
 
 # categories = ["Life 🌇", "Professional 🤓"]
 # tags = ["English 🇬🇧", "Unemployment Arc🔥", "Data Science", "Career Retro", "How to"]

@@ -110,27 +110,21 @@ Since I’m working mostly on tabular data, I mainly use pandas for both data pr
     <ul>
       <li><a href="https://github.com/dask/dask" target="_blank" rel="noreferrer noopener">Dask</a></li>
       <li><a href="https://github.com/vaexio/vaex" target="_blank" rel="noreferrer noopener">Vaex</a></li>
-      <li><a href="https://github.com/modin-project/modin">modin</a></li>
+      <li><a href="https://github.com/modin-project/modin" target="_blank" rel="noreferrer noopener">modin</a></li>
     </ul>
   </div>
 </div>
 
 Out of those 6 mentioned, I’ve only tried spark a little and polars. This is the comparison of many pandas-like libraries.
+<figure>
+  <img src="2_2_benchmark_read.png" alt="Reading benchmark">
+  <figcaption>time taken on reading 5GB of file <a href="#link2">[2]</a></figcaption>
+</figure>
 
-<div class="columns">
-  <div class="column">
-    <figure>
-      <img src="your-image.jpg" alt="Your Image">
-      <figcaption>time taken on reading 5GB of file <a href="#link2">[2]</a></figcaption>
-    </figure>
-  </div>
-  <div class="column">
-    <figure>
-      <img src="your-image.jpg" alt="Your Image">
-      <figcaption>time taken on a simple query <a href="#link2">[2]</a></figcaption>
-    </figure>
-  </div>
-</div>
+<figure>
+  <img src="2_3_benchmark_query.png" alt="Query benchmark">
+  <figcaption>time taken on a simple query <a href="#link2">[2]</a></figcaption>
+</figure>
 
 Pandas is probably doing better now since <a href="https://pandas.pydata.org/docs/dev/whatsnew/v2.0.0.html" target="_blank" rel="noreferrer noopener">pandas 2.0</a> support arrow as it <code>dtype_backend</code> and many other enhancement on the library.
 
@@ -156,26 +150,21 @@ And don’t forget to use the libraries built-in optimization strategies. I’m 
 Take GeoPandas as an example, the library has dependencies with other libraries such as shapely. There’s also options of engine available to be used alongside GeoPandas such as fiona and 
 pyogrio. In GeoPandas’ case, what I mean by <em>built-in optimization strategies</em> is to upgrade shapely to version 2.0 and use pyogrio instead of fiona as its engine.
 
-<div class="columns">
-  <div class="column" style="flex-basis: 30%;">
-    <figure>
-      <img src="your-image.jpg" alt="Your Image">
-      <figcaption>Spatial Join Comparison using different version of shapely<a href="#link3">[3]</a></figcaption>
-    </figure>
-  </div>
-  <div class="column" style="flex-basis: 70%;">
-    <figure>
-      <img src="your-image.jpg" alt="Your Image">
-      <figcaption>.gpkg file reading comparison using fiona and pyogrio as the engine <a href="#link3">[3]</a></figcaption>
-    </figure>
-  </div>
-</div>
+<figure>
+  <img src="2_4_gpd_sjoin.png" alt="Spatial join" height="200">
+  <figcaption>Spatial Join Comparison using different version of shapely<a href="#link3">[3]</a></figcaption>
+</figure>
+
+<figure>
+  <img src="2_5_gpd_engine.png" alt="GeoPandas engine">
+  <figcaption>.gpkg file reading comparison using fiona and pyogrio as the engine <a href="#link3">[3]</a></figcaption>
+</figure>
 
 ## Better File Format 🗒️
 Extending the previous part on optimization strategies, it also worth to try other data format, like parquet.
 
 <figure>
-    <img src="your-image.jpg" alt="Your Image">
+    <img src="2_6_gpd_format.png" alt="File format">
     <figcaption>Time taken to read various file format using GeoPandas and their size comparison<a href="#link3">[3]</a></figcaption>
 </figure>
 
@@ -210,12 +199,12 @@ Another reason is that I’m not familiar with the concept of multi-processing a
 Conceptually, by default, python (or jupyter notebook) scripts only utilizes one core from our machine. Whereas, our machine usually have multiple cores. Of course we want to utilizes more than just one of them to speed up our processes.
 
 <figure>
-    <img src="your-image.jpg" alt="Your Image">
+    <img src="2_7_singleprocessing.png" alt="Your Image">
     <figcaption>Illustration of what happened when you run a python script WITHOUT multi-processing<a href="#link4">[4]</a></figcaption>
 </figure>
 
 <figure>
-    <img src="your-image.jpg" alt="Your Image">
+    <img src="2_8_multiprocessing.png" alt="Your Image">
     <figcaption>Illustration of what happened when you run a python script WITH multi-processing<a href="#link4">[4]</a></figcaption>
 </figure>
 
@@ -256,7 +245,7 @@ But I’ll take this little victory ¯\(ツ)/¯.
 I’ll write an update on my journey to find the fastest solution. Later!
 
 <figure>
-    <img src="your-image.jpg" alt="Your Image">
+    <img src="2_9_meme.png" alt="Your Image" height="500">
 </figure>
 
 # Sources
