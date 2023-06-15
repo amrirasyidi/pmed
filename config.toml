@@ -14,7 +14,7 @@ generate_feed = true
 
 # list of categories and tags
 # categories = ["Life 🌇", "Professional 🤓", "Reading 📖"]
-# tags = ["Bahasa Indonesia 🇮🇩", "English 🇬🇧", "python 🐍", "Unemployment Arc🔥", "Data Science", "Career Retro", "I think..."]
+# tags = ["Bahasa Indonesia 🇮🇩", "English 🇬🇧", "python 🐍", "Unemployment Arc🔥", "Data Science", "Career Retro", "I think...", "How to"]
 
 [markdown]
 # Whether to do syntax highlighting
