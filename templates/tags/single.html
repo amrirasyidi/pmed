@@ -1,0 +1,23 @@
+{% extends "index.html" %}
+
+{% block content %}
+    <h1 style="color:black"><a href="{{ config.base_url}}/tags">#{{ term.name }}</a> posts</h1>
+    {% for page in term.pages %}
+        <h1><a style="color:black" title="{{ page.title }}" href="{{ page.permalink }}">{{ page.title }}</a></h1>
+        <span class="post-metadata">
+            {{ page.date | date(format="%Y-%m-%d") }}
+            {% if page.authors %}
+                by {% for author in page.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %}
+            {% endif %}
+            - {{ page.reading_time }} mins read
+        </span>
+        <span class="post-metadata">
+            {% if page.taxonomies.tags %}#
+              {% for tag in page.taxonomies.tags %}
+                <a href="{{ config.base_url }}/tags/{{ tag }}">{{ tag }}</a><span style="color:tomato;"> •</span>
+              {% endfor %}
+            {% endif %}
+        </span>
+        {{ page.description }}
+    {% endfor %}
+{% endblock content %}

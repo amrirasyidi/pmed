@@ -3,10 +3,11 @@ title = "The privilege of the unemployed"
 date = 2022-09-04
 authors = ["Amri Rasyidi"]
 description = "A month of being unemployed! Target gua untuk menghapus satu per satu kata di bio Instagram gua (atau at least sampe sisa “Rumahan” nya aja haha) harus tertunda sementara waktu."
-# categories = ["Life 🌇"]
-# tags = ["Bahasa Indonesia 🇮🇩", "Unemployment Arc🔥"]
-+++
 
+[taxonomies]
+tags = ["id", "life"]
++++
+<!-- series = ["Unemployment Arc🔥"] -->
 <figure>
   {{ image( img="1_1_ig.webp", alt="insta header", style="border-radius: 8px; width: 100%;" ) }}
 </figure>

@@ -68,8 +68,15 @@
                           {% endif %}
                           - {{ page.reading_time }} mins read
                         </span>
+
+                        <span class="post-metadata">
+                          {% if page.taxonomies.tags %}#
+                            {% for tag in page.taxonomies.tags %}
+                              <a href="{{ config.base_url }}/tags/{{ tag }}">{{ tag }}</a><span style="color:tomato;"> •</span>
+                            {% endfor %}
+                          {% endif %}
+                        </span>
                         {{ page.description }}
-                        <!-- TODO: add categories -->
                       </div>
                     {% endfor %}
                 </div>

@@ -4,8 +4,8 @@ date = 2023-04-23
 authors = ["Amri Rasyidi"]
 description = "This post recaps my data science project experience and how I tried alternatives to speed up my python script. Go straight to the “The Alternatives” part to see what I tried."
 
-# categories = ["Professional 🤓"]
-# tags = ["English 🇬🇧", "python 🐍"]
+[taxonomies]
+tags = ["en", "professional", "python", "how-to"]
 +++
 
 <figure>

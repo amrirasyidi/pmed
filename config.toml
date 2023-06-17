@@ -16,6 +16,10 @@ generate_feed = true
 # categories = ["Life 🌇", "Professional 🤓", "Reading 📖"]
 # tags = ["Bahasa Indonesia 🇮🇩", "English 🇬🇧", "python 🐍", "Unemployment Arc🔥", "Data Science", "Career Retro", "I think...", "How to"]
 
+taxonomies = [
+    { name = "tags"}
+]
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -25,4 +29,5 @@ highlight_code = true
 # Put all your custom variables here
 hyde_links = [
     {url = "about/about", name = "About"},
+    {url = "tags", name = "Tags"},
 ]
