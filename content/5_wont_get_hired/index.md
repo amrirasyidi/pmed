@@ -59,6 +59,21 @@ However, the ideal case would be, after you connect with the stakeholder, you ca
 
 Extending on the first point, this one is a little bit outside of the application effort, a little bit before to be more precise. I’ll show you what my previous cv and how does it look like now.
 
+<div text-align="center">
+<figure>
+    {{ image( img="5_1_cvbefore.png", alt="cv before", style="border-radius: 0px; width: 60%;" ) }}
+    <figcaption>CV before enlightenment</figcaption>
+</figure>
+</div>
+
+<figure>
+    {{ image( img="5_2_cvafter1.png", alt="cv after", style="border-radius: 0px; width: 60%;" ) }}
+</figure>
+<figure>
+    {{ image( img="5_3_cvafter2.png", alt="cv after", style="border-radius: 0px; width: 60%;" ) }}
+    <figcaption>CV after enlightenment</figcaption>
+</figure>
+
 I’m sure there are still things I can improve from my current CV, but compared to the “first” version of my CV, which seems very empty after looking at my current CV, I can point out the improvements I made.
 And I think it is actually normal to have this kind of progress, first cv should seem empty compared to your latest one.
 
