@@ -9,15 +9,16 @@ build_search_index = false
 
 theme = "hyde1"
 title = "Painfully Mediocre"
-description = "some 5head quote here"
+description = "rant & meme"
 generate_feed = true
 
-# list of categories and tags
-# categories = ["Life 🌇", "Professional 🤓", "Reading 📖"]
-# tags = ["Bahasa Indonesia 🇮🇩", "English 🇬🇧", "python 🐍", "Unemployment Arc🔥", "Data Science", "Career Retro", "I think...", "How to"]
+# list of series and tags
+# series = ["unemployment_arc"]
+# tags = ["life", "professional", "reading", "id", "en", "python", "data-science", "career-retro", "me-think", "how-to"]
 
 taxonomies = [
-    { name = "tags"}
+    { name = "tags" },
+    { name = "series" }
 ]
 
 [markdown]
@@ -29,5 +30,7 @@ highlight_code = true
 # Put all your custom variables here
 hyde_links = [
     {url = "about/about", name = "About"},
+    {url = "series", name = "Series"},
     {url = "tags", name = "Tags"},
 ]
+hyde_sticky = true

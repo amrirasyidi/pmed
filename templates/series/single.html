@@ -1,7 +1,7 @@
 {% extends "index.html" %}
 
 {% block content %}
-    <h1 style="color:black"><a href="{{ config.base_url}}/tags">#{{ term.name }}</a> posts</h1>
+    <h1 style="color:black">Posts from <a href="{{ config.base_url}}/series">{{ term.name }}</a> series</h1>
     {% for page in term.pages %}
         <h1><a style="color:black" title="{{ page.title }}" href="{{ page.permalink }}">{{ page.title }}</a></h1>
         <span class="post-metadata">
@@ -11,13 +11,6 @@
             {% endif %}
             - {{ page.reading_time }} mins read
         </span>
-        <span class="post-metadata" style="font-size: smaller;">
-            {% if page.taxonomies.series %}Part of
-              {% for episode in page.taxonomies.series %}
-                <a href="{{ config.base_url }}/series/{{ episode }}">{{ episode }}</a>
-              {% endfor %}series
-            {% endif %}
-          </span>
         <span class="post-metadata" style="font-size: small;">
             {% if page.taxonomies.tags %}#
               {% for tag in page.taxonomies.tags %}

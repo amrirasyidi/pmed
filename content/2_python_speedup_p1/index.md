@@ -5,7 +5,8 @@ authors = ["Amri Rasyidi"]
 description = "This post recaps my data science project experience and how I tried alternatives to speed up my python script. Go straight to the “The Alternatives” part to see what I tried."
 
 [taxonomies]
-tags = ["en", "professional", "python", "how-to"]
+series = ["python-speedup"]
+tags = ["professional", "python", "how-to"]
 +++
 
 <figure>

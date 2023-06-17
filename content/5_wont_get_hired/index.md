@@ -4,10 +4,10 @@ date = 2023-06-16
 authors = ["Amri Rasyidi"]
 description = "Read my retro on how to apply for a data job."
 [taxonomies]
-tags = ["en", "life", "professional", "data-science", "career-retro", "how-to"]
+series = ["unemployment-arc"]
+tags = ["professional", "career-retro", "how-to"]
 +++
 
-<!-- series = ["Unemployment Arc🔥"] -->
 As a context, I actually work as a data scientist at the time I posted this entry (thank god). So if you are asking, *“What’s with the title?”* I’ll give you a little background. Timeline context: it was 2 months into my unemployment when I got the idea to make this post. Hence the title.
 
 If you read the first part of this unemployment arc, you might remember that at the end of that post I “applied” to many job postings on LinkedIn to which none of them has a follow-up. In this post I will try to break down, what I think went wrong and how you can learn from my stupidity.
