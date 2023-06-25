@@ -6,7 +6,7 @@ description = "This post recaps my data science project experience and how I tri
 
 [taxonomies]
 series = ["python-speedup"]
-tags = ["professional", "python", "how-to"]
+tags = ["python", "how-to"]
 +++
 
 <figure>

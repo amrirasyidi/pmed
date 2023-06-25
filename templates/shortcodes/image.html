@@ -34,11 +34,11 @@
 {% endif %}
 
 <a href="{{ full }}" target="_blank">
-  <img 
-    src="{{ src }}" 
-    alt="{{ alt }}"
-    class="{% if position %}{{ position }}{% else -%} center {%- endif %}" 
-    {%- if style %} style="{{ style | safe }}" {%- endif %} 
-  />
-  {% if caption %}<figcaption>{{ caption | safe }}</figcaption>{% endif %}
+<img 
+  src="{{ src }}" 
+  alt="{{ alt }}"
+  class="{% if position %}{{ position }}{% else -%} center {%- endif %}" 
+  {%- if style %} style="{{ style | safe }}" {%- endif %} 
+/>
+{% if caption %}<figcaption>{{ caption | safe }}</figcaption>{% endif %}
 </a>

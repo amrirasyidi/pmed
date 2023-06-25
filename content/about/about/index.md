@@ -10,7 +10,7 @@ front_page = false
 
 <figure style="text-align:center">
       {{ image( img="image.png", alt="me", style="border-radius: 0px; width: 100%;" ) }}
-      <figcaption>A picture of me as a proof that I’m not a robot</figcaption>
+      <figcaption>A picture of me as a proof that I’m not an AI</figcaption>
 </figure>
 
 <div style="display: flex; justify-content: center;">

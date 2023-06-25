@@ -6,7 +6,7 @@ description = "A month of being unemployed! Target gua untuk menghapus satu per 
 
 [taxonomies]
 series = ["unemployment-arc"]
-tags = ["life"]
+tags = ["career-retro"]
 +++
 
 <figure>

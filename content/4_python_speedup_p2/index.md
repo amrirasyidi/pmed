@@ -6,7 +6,7 @@ description = "Previously, I was on an exploration to find the most efficient so
 
 [taxonomies]
 series = ["python-speedup"]
-tags = ["professional", "python"]
+tags = ["python", "data-science"]
 +++
 
 I planned this to be a shorter entry, I just want to point out what should I do in my next project, some sort of lessons learned from this project, then some thought on some alternatives that I tried to finish this project.

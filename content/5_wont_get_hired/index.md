@@ -5,12 +5,12 @@ authors = ["Amri Rasyidi"]
 description = "Read my retro on how to apply for a data job."
 [taxonomies]
 series = ["unemployment-arc"]
-tags = ["professional", "career-retro", "how-to"]
+tags = ["career-retro", "how-to"]
 +++
 
-As a context, I actually work as a data scientist at the time I posted this entry (thank god). So if you are asking, *“What’s with the title?”* I’ll give you a little background. Timeline context: it was 2 months into my unemployment when I got the idea to make this post. Hence the title.
+As a context, by the time I posted this entry, I actually work as a data scientist (thank god). So if you are asking, *“What’s with the title?”* I’ll give you a little background. Timeline context: it was 2 months into my unemployment when I got the idea to make this post. Hence the title.
 
-If you read the first part of this unemployment arc, you might remember that at the end of that post I “applied” to many job postings on LinkedIn to which none of them has a follow-up. In this post I will try to break down, what I think went wrong and how you can learn from my stupidity.
+If you read the first part of the [unemployment arc](https://arasyidi.netlify.app/series/unemployment-arc/), you might remember that at the end of that post I “applied” to many job postings on LinkedIn to which none of them has a follow-up. In this post I will try to break down, what I think went wrong and how you can learn from my stupidity.
 
 - -
 
@@ -45,6 +45,7 @@ One more pro tip, while you are looking for someone to reach/connect with/ask, c
 I mentioned one before, just hit their DMs on LinkedIn or any social media for that matter. You can even send an email if you have the email address.<br><br>
 Just make sure (1) you make a **short** introduction and mention how the job interests you and how you are relevant for the role. (2) Mention your purpose of reaching out, can be a request for discussion. And since it’s an email, better to mention your questions in it, i.e. no need to wait for them to respond first before laying out your questions. (3) Be nice.
 1. Extra miles, ask for a referral.<br>
+Referral helps you at least to increase the likelihood of (your resume) being seen by the recruiter. As a matter of fact, my current employment are the result of a referral I got from my senior in college.<br><br>
 People are arguing whether or not it is okay to ask for a referral from someone you barely know. Because it seems unprofessional. I’ll say, just go for it. Especially if you are confident that you are a good fit for the position.<br><br>
 However, the ideal case would be, after you connect with the stakeholder, you can start building a relationship, gain trust, etc etc. But this takes time, so need a plan in advance, and we don’t always have advance. But yes, I agree, this way is better.
 1. Things to keep in mind.
@@ -62,16 +63,16 @@ Extending on the first point, this one is a little bit outside of the applicatio
 <div text-align="center">
 <figure>
     {{ image( img="5_1_cvbefore.png", alt="cv before", style="border-radius: 0px; width: 60%;" ) }}
-    <figcaption>CV before enlightenment</figcaption>
+    <figcaption>CV before "enlightenment"</figcaption>
 </figure>
 </div>
 
 <figure>
-    {{ image( img="5_2_cvafter1.png", alt="cv after", style="border-radius: 0px; width: 60%;" ) }}
+    {{ image( img="5_2_cvafter1.jpg", alt="cv after", style="border-radius: 0px; width: 60%;" ) }}
 </figure>
 <figure>
     {{ image( img="5_3_cvafter2.png", alt="cv after", style="border-radius: 0px; width: 60%;" ) }}
-    <figcaption>CV after enlightenment</figcaption>
+    <figcaption>CV after "enlightenment"</figcaption>
 </figure>
 
 I’m sure there are still things I can improve from my current CV, but compared to the “first” version of my CV, which seems very empty after looking at my current CV, I can point out the improvements I made.
@@ -80,13 +81,13 @@ And I think it is actually normal to have this kind of progress, first cv should
 ## What should I do instead?
 
 1. Find feedback. <br>
-This could be from a professional, like, again, the 2 stakeholders, from your friends, or someone experienced in the respective field. You can also find them anywhere, LinkedIn is again one place, numerous discord servers have this kind of channel. Again, be creative.
+This could be from a professional, like, again, the 2 stakeholders, from  someone experienced in the respective field, or from your friends. You can also find them anywhere, LinkedIn is again one place, numerous discord servers have this kind of channel. Again, be creative.
 2. Consciously spare some time to work on the feedback. <br>
 After getting those feedback, it’s time to work on it. Those feedback means nothing if you don’t pour them into your CV. From my experience, wording and quantification is the hardest part. Two ways to help you with this is to have a reference (other people's CV for example) or have someone to discuss it with.
 3. Extra point, make a “tangible” portfolio. <br>
 A result of your work. Which can be seen or tried by others.
 
-If you trust me enough to comment/feedback on your resume, don’t hesitate to reach out uwu.
+If you trust me enough to comment/feedback on your resume, don’t hesitate to reach out!
 
 <p style="color:red">Disclaimer: I don’t think I have the professional qualification to review your CV, so consider this as feedback from a friend.<p>
 

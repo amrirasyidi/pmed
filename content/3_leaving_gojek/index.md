@@ -6,7 +6,7 @@ description = "Imagine this…You work in a well-known decacorn. Your salary is 
 
 [taxonomies]
 series = ["unemployment-arc"]
-tags = ["life", "professional", "career-retro"]
+tags = ["career-retro"]
 +++
 
 <figure style="text-align:center">{{ image( img="3_1_joker.gif", alt="bar graph", style="border-radius: 0px; width: 100%;" ) }}</figure>
