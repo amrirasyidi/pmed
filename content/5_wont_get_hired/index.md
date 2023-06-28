@@ -10,7 +10,7 @@ tags = ["career-retro", "how-to"]
 
 As a context, by the time I posted this entry, I actually work as a data scientist (thank god). So if you are asking, *“What’s with the title?”* I’ll give you a little background. Timeline context: it was 2 months into my unemployment when I got the idea to make this post. Hence the title.
 
-If you read the first part of the [unemployment arc](https://arasyidi.netlify.app/series/unemployment-arc/), you might remember that at the end of that post I “applied” to many job postings on LinkedIn to which none of them has a follow-up. In this post I will try to break down, what I think went wrong and how you can learn from my stupidity.
+If you read the [first part](@/1_the_privilege_of_the_unemployed/index.md) of the [unemployment arc series](https://arasyidi.netlify.app/series/unemployment-arc/), you might remember that at the end of that post I “applied” to many job postings on LinkedIn to which none of them has a follow-up. In this post I will try to break down, what I think went wrong and how you can learn from my stupidity.
 
 - -
 

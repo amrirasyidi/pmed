@@ -1,0 +1,21 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  {{ page.content | safe }}
+
+  {% if page.extra.toc  %}
+    {% block toc %}
+      <span class="toc">
+        <dt><a href="#top">Back to top</a></dt>
+        {% for h1 in page.toc %}
+          <dt>
+            <a href="{{ h1.permalink | safe }}">{{ h1.title }}</a>
+          </dt>
+        {% endfor %}
+      </span>
+    {% endblock toc %}
+  {% endif %}
+</div>
+{% endblock content %}

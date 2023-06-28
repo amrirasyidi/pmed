@@ -6,6 +6,7 @@ description = "Page about me"
 
 [extra]
 front_page = false
+toc = false
 +++
 
 <figure style="text-align:center">
