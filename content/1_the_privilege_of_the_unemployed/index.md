@@ -28,7 +28,7 @@ Tiga poin ini sebenernya mengarah ke keinginan gua untuk switch career. Gua akan
 
 ---
 
-<h1><s>Malam Pertama</s> Minggu Pertama</h1>
+# <s>Malam Pertama</s> Minggu Pertama
 
 Awal awal gua nganggur, gua berasa jadi manusia paling bebas di dunia hahaha.
 
@@ -40,7 +40,7 @@ Dari awal gua tau bakal kena layoff, gua langsung decide bakal lanjut belajar da
 
 Teklap artinya teknis lapangan btw.
 
-<h1>Minggu Kedua</h1>
+# Minggu Kedua
 Gua buka home youtube gua dan dikasih iklan online bootcamp, gila.
 
 Puja kerang ajaib!
@@ -57,13 +57,13 @@ Dan iya emang bener hahahaha. Sebelum sampe ke kalimat itu, gua nanya udah apply
 
 Kenapa gitu? Karena di minggu kedua ini, gua memutuskan untuk prioritize bootcamp dulu. Jadi gua apply, mostly supaya gua dapet take home assignment hehe. Gua takutnya belajar belajar doang, malah jadi pandir karena ga dikasih real-world problem. At least take home assignment ini proxy ke real-world problem itu lah. Di prosesnya juga gua jelasin kalau gua lagi ikut bootcamp dan bakal prioritize bootcamp itu. Jadi kalau dari segi role sesuai sama aspirasi gua DAN dari mereka decide no problem gua lagi bootcamp, baru akan gua lanjutin terus prosesnya.
 
-<h1>Minggu 3</h1>
+# Minggu 3
 
 Ga banyak yang terjadi di minggu ketiga ini. Materi materi bootcamp nya juga masih yang dasar-dasar dan udah pernah dipelajarin semua, jadi gua liat selewat selewat aja.
 
 Tapi tidak banyak yang terjadi ini bukan hal yang baik menurut gua. Karena tidak seperti orang yang punya kerja therefore punya target yang lebih jelas (pada umumnya). Ketika gua tidak melakukan enough things, gua bisa malah keasikan idle. Tapi rendahnya tekanan darah gua menghindarkan gua dari pressure buat terus terusan produktif. Gua sadar bahwa sesekali tidak produktif adalah hal yang perlu.
 
-<h1>4th Week</h1>
+# 4th Week
 
 Gua percaya, motivasi dan impulsifitas itu bisa bikin orang mulai. Tapi untuk bertahan dan melanjutkan, kita perlu sistem.
 
@@ -87,7 +87,7 @@ Long story short, sistem gua terdiri dari 3 hal:
 1. Google calendar
 1. Notion
 
-<h2>Aku.</h2>
+## Aku.
 
 Gua perlu nulis poin pertama, karena ini nyambung sama mental dan physical capacity. Gua ngerasa ada aja orang yang ga sadar kalau dia lagi ngerjain sesuatu, dia suka lupa kalau dia limited bukan hanya dari sisi waktu, tapi mentally dan physically juga. Lu perlu maintenance dan di-charge. Jadi kasarnya, menurut gua kalau lu sakit gara gara overwork, ya lu tolol.
 
@@ -97,7 +97,7 @@ Tapi ya gua ga akan jenguk temen yang lagi sakit karena kerja kerja kerja tipes,
 
 Sebagaimana beragam hal yang terjadi di dunia ini, sakit juga kadang due to randomness dan ga bisa dihindari. Poin gua adalah, jangan diundang.
 
-<h2>Almanak.</h2>
+## Almanak.
 Apalah artinya sistem kalau ga time-bounded. Google calendar gua yang sebelumnya putih semua, berakhir kayak gini.
 
 <figure>
@@ -138,7 +138,7 @@ Alhamdulillah gua belum terkena anxiety, impostor syndrome, dan mental health is
 
 Penolakan penolakan ini jadi trigger gua buat nyari dan bikin strategi yang lebih baik lagi buat apply kerja. Mungkin akan gua tulis juga soal ini. Kalau udah dapet offer sih kayaknya. Aneh juga kan kalau gua share strateginya, tapi pas masih belum dapet offer wkwk.
 
-<h1>In conclusion</h1>
+# In conclusion
 
 Di 4 minggu nganggur ini:
 

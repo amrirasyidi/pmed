@@ -41,7 +41,9 @@ I’ve been working on a relatively simple data science project for the past 2 m
 
 Imagine you have 2 datasets, each of them have their own id, let say customer_id and product_id. This data science project is basically ask to count how many unique product_id corresponds to each customer_id. If you are familiar with python, this whole project can be summed up in a **one liner** 🤷‍♂️.
 
-`invoice_table[["customer_id","product_id"]].groupby("customer_id").nunique()`
+```python
+invoice_table[["customer_id","product_id"]].groupby("customer_id").nunique()
+```
 
 If only it is that simple.
 

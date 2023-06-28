@@ -33,6 +33,7 @@
 
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
 }
 @media (min-width: 48em) {
   html {
@@ -152,7 +153,6 @@ a.sidebar-nav-item:focus {
   }
 }
 
-
 @media (min-width: 48em) {
   .content {
     max-width: 38rem;
@@ -168,6 +168,14 @@ a.sidebar-nav-item:focus {
   }
 }
 
+.toc {
+  position: fixed;
+  top: 100px;
+  right: 10px;
+  align-self: flex-start;
+  padding: 0px;
+  text-align: right;
+}
 
 /*
  * Reverse layout
