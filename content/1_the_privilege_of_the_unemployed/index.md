@@ -130,7 +130,7 @@ Gua tembak tembakin aja tuh job vacancy di LinkedIn yang title nya “Data Analy
 
 And guess what? Ternyata ombaknya ga ada sama sekali HAHAHAHA.
 
-<figure style="text-align:center">{{ image( img="1_4_keksociety.webp", alt="keksociety", style="border-radius: 0px; width: 20%;" ) }}</figure>
+<p><center><img src="1_4_keksociety.webp"></center></p>
 
 (atau gua harusnya bilang lautnya ombak semua? karena ga ada yang lolos screening kan masalah ya?)
 
@@ -146,7 +146,9 @@ Di 4 minggu nganggur ini:
 - Untuk memitigasi perasaan “biasa aja” ini, gua bikin sistem yang bikin gua lebih sibuk dan produktif dibanding pas kerja dulu haha. Tapi ya tetep flexible aja dan gua juga ngerjain apa yang consciously ingin gua kerjain aja. After all, the core value of being unemployed is freedom/flexibility.
 - Gua banyak dapet sanity check.
 
-<figure style="text-align:center">{{ image( img="1_5_tetap_bernafas.jpeg", alt="keksociety", style="border-radius: 0px; width: 20%;" ) }}</figure>
+<p><center><img src="1_5_tetap_bernafas.jpeg"></center></p>
+
+<!-- <figure style="text-align:center">{{ image( img="1_5_tetap_bernafas.jpeg", alt="keksociety", style="border-radius: 0px; width: 20%;" ) }}</figure> -->
 
 Kalau lu lagi nganggur (terutama karena terdampak layoff), pesan gua adalah: shit happened, this is not your fault, you are not alone, and don’t beat yourself up too much.
 
@@ -154,6 +156,6 @@ Semoga cepet dapet kerjaan baru yang lebih bagus (apapun definisi “lebih bagus
 
 Until next time, farewell
 
-- -
+---
 
 >_This post is a part of “The Unemployed Arc”, a train of thought during my jobless time. In this series I share perspective I got, things I did, and my fragments of my unruly thought during this “special” time._

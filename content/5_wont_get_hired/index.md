@@ -12,7 +12,7 @@ As a context, by the time I posted this entry, I actually work as a data scienti
 
 If you read the [first part](@/1_the_privilege_of_the_unemployed/index.md) of the [unemployment arc series](https://arasyidi.netlify.app/series/unemployment-arc/), you might remember that at the end of that post I “applied” to many job postings on LinkedIn to which none of them has a follow-up. In this post I will try to break down, what I think went wrong and how you can learn from my stupidity.
 
-- -
+---
 
 # #1 - No Effort on Application
 
@@ -26,7 +26,7 @@ Hit and run like that can drag you into a false sense of completion, thinking th
 
 Reach out directly to the stakeholders. 
 
-As a job seeker, finding a job is basically exposing yourself (certainly not in a perverted way) to the right person in the right place on the right medium. And there are many ways to do it. The most common and the most straightforward is of course applying for a job post. You are showcasing (exposing) your skills (in a resume or portfolio, medium) to the recruiters (person) when they actually need manpower (or womanpower or human power if you are woke) on your target company (place).
+As a job seeker, finding a job is basically **exposing yourself** (certainly not in a perverted way) to the **right person** in the **right place** on the **right medium**. And there are many ways to do it. The most common and the most straightforward is of course applying for a job post. You are showcasing (exposing) your skills (in a resume or portfolio, medium) to the recruiters (person) when they actually need manpower (or womanpower or human power if you are woke) on your target company (place).
 
 Let’s add a bit more detail to this.
 
@@ -39,7 +39,7 @@ On LinkedIn, some of the job posts have the profile of the recruiter(s) in it, j
 But sometimes, the job post doesn’t have this information, here you have to dig a little bit deeper. You can go directly to the company page, open the people tab, and find someone that you think has something to do with the job post, again, could be the recruiter or the hiring manager. For recruiters, they usually have “recruiter” or “HR” in their title, for the hiring manager, it depends on the job post, let’s say it is a data science job, find someone with “data science” in their title, better if it also has “leader” or “manager”.<br><br>
 Not sure if they are the right person? Reach out anyway, you can ask something like <i>“Hi, my name is [your name, don’t use mine, thanks], I find that your company is looking for a [job title]. I’m interested and would like to know more about the opportunity. Do you know someone I can reach out to, to ask about this vacancy? Thanks!”</i> or something along those lines. Idk, ask chatgpt to generate one for you.<br><br>
 You don’t have to limit yourself to LinkedIn while trying to reach out. Some of them may be active on other social media, use your unparalleled stalking skills, you creep. Be creative :)<br><br>
-One more pro tip, while you are looking for someone to reach/connect with/ask, check their LinkedIn page, and go to activity. I think the one that has more recent activity is more likely to respond since it indicates they are recently active on LinkedIn.<div class="callout-idea"><div class="callout-icon">💡</div><div class="callout-content"><p>Some people only open their LinkedIn when looking for a job or recruiting, and go radio silence in between, <strong>so find someone with recent activity.</strong></p></div></div>
+One more pro tip, while you are looking for someone to reach/connect with/ask, check their LinkedIn page, and go to activity. I think the one that has more recent activity is more likely to respond since it indicates they are recently active on LinkedIn.<div class="callout-idea"><div class="callout-icon">💡</div><div class="callout-content"><p>Some people only open their LinkedIn when looking for a job or recruiting, and go radio silence in between, <b>so find someone with recent activity.</b></p></div></div>
 
 1. How to reach out?<br>
 I mentioned one before, just hit their DMs on LinkedIn or any social media for that matter. You can even send an email if you have the email address.<br><br>
@@ -60,20 +60,34 @@ However, the ideal case would be, after you connect with the stakeholder, you ca
 
 Extending on the first point, this one is a little bit outside of the application effort, a little bit before to be more precise. I’ll show you what my previous cv and how does it look like now.
 
-<div text-align="center">
+<center>
+    <img src="5_1_cvbefore.png" style="height:500px">
+    <figcaption>CV before "enlightenment"</figcaption>
+</center>
+
+<center>
+    <img src="5_2_cvafter1.jpg" style="height:500px">
+</center>
+
+<center>
+    <img src="5_3_cvafter2.jpg" style="height:500px">
+    <figcaption>CV before "enlightenment"</figcaption>
+</center>
+
+<!-- <div text-align="center">
 <figure>
     {{ image( img="5_1_cvbefore.png", alt="cv before", style="border-radius: 0px; width: 60%;" ) }}
     <figcaption>CV before "enlightenment"</figcaption>
 </figure>
-</div>
+</div> -->
 
-<figure>
+<!-- <figure>
     {{ image( img="5_2_cvafter1.jpg", alt="cv after", style="border-radius: 0px; width: 60%;" ) }}
 </figure>
 <figure>
     {{ image( img="5_3_cvafter2.png", alt="cv after", style="border-radius: 0px; width: 60%;" ) }}
     <figcaption>CV after "enlightenment"</figcaption>
-</figure>
+</figure> -->
 
 I’m sure there are still things I can improve from my current CV, but compared to the “first” version of my CV, which seems very empty after looking at my current CV, I can point out the improvements I made.
 And I think it is actually normal to have this kind of progress, first cv should seem empty compared to your latest one.
@@ -121,7 +135,7 @@ Having a different industry but the same role ensures that you still have the ex
 
 Having a different role within the same industry will retain your understanding of the industry. Example, you are switching from BI analyst to product analyst within the same industry, you’ll be doing different things, but you’ll still easily understand the underlying requirement behind those different requests.
 
-- -
+---
 
 Hope this is helpful.
 

@@ -48,9 +48,9 @@ This blog is also my attempt to convince you that I’m a f*cking professional (
 
 You’ll also get a glimpse into my personal life, which is basically just me trying to balance work, social life (which I don’t have), and a healthy dose rant.
 
-## Sounds good? 
+<!-- ## Sounds good? 
 Fill in the form below to get the latest info on this blog!
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfk7HqxOlHiZYLQZhd7BtblQdSGgg6WdBmX6Bfi37xpWBjoxQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfk7HqxOlHiZYLQZhd7BtblQdSGgg6WdBmX6Bfi37xpWBjoxQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
 
 <!-- https://forms.gle/F6tjxsaocscHJ3LR8 -->

@@ -89,7 +89,7 @@ I have no problem at all while deploying to netlify, you only need the netlify a
 [context.deploy-preview]
     command = "zola build --base-url $DEPLOY_PRIME_URL"
 ```
-- -
+---
 That’s it, the very first version of my blog!
 
 In the next post, I’ll tell you how I fixed the sidebar link, adding series and tags, and also add a subscription form.

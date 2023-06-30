@@ -13,8 +13,8 @@ description = "rants & memes"
 generate_feed = true
 
 # list of series and tags
-# series = ["unemployment_arc"]
-# tags = ["life", "professional", "reading", "id", "en", "python", "data-science", "career-retro", "me-think", "how-to"]
+# series = ["unemployment_arc", "learn-in-public", "python-speedup", "core-value"]
+# tags = ["reading", "python", "data-science", "career-retro", "me-think", "how-to"]
 
 taxonomies = [
     { name = "tags" },

@@ -9,14 +9,16 @@ series = ["unemployment-arc"]
 tags = ["career-retro"]
 +++
 
-<figure style="text-align:center">{{ image( img="3_1_joker.gif", alt="bar graph", style="border-radius: 0px; width: 100%;" ) }}</figure>
+<!-- <figure style="text-align:center">{{ image( img="3_1_joker.gif", alt="bar graph", style="border-radius: 0px; width: 100%;" ) }}</figure> -->
+
+<p><center><img src="3_1_joker.gif"></center></p>
 
 <p style="color:red;font-size:20px"><b>Disclaimer</b></p>
 
 1. This post (and the whole Unemployment Arc series) should have been written and posted when I was still unemployed, as a continuation from the previous post. Hence, this post—should—reflect what I thought at that time, however insights from the current situation is inevitable.
 1. This is not a badmouthing by any mean. Hopefully my words reflect it lol.
 
-- -
+---
 
 # Why Gojek is so good
 
@@ -96,9 +98,7 @@ The more I’m thinking about this priority, or value to make it fancier, the mo
       <br><br>However, those poorly performed interviews round, made me realized, the expectation to be met to be able to fill in those position were out of my reach.</p>
   </div>
   <div class="column" style="flex-basis: 50%; padding: 0px;">
-    <figure>
-        {{ image( img="3_stairs.webp", alt="bar graph", style="border-radius: 0px; width: 80%;" ) }}
-    </figure>
+    <img src="3_stairs.webp">
   </div>
 </div>
 
@@ -115,7 +115,7 @@ Back off, relax, and evaluate.
 
 And that what I did exactly, I just didn’t do it correctly the first time.
 
-- -
+---
 
 # At last
 My “itchy-ness” peaks, an opportunity was just around the corner. This leads me to think “at this point, anything will be better than status quo”. Then, I compromised my own ideal, from “I want to be a data scientist” to “better move first than not at all”.

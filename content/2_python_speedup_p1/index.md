@@ -143,7 +143,7 @@ This is to accelerate the data preprocessing stage. After exploring with pandas,
     💡
   </div>
   <div class="callout-content">
-    <p>I also just stumbled upon a YouTube video that showcasing <a rel="noreferrer noopener" href="https://github.com/pytorch/pytorch" target="_blank">pytorch</a> as <a rel="noreferrer noopener" href="https://github.com/numpy/numpy" target="_blank">numpy</a> replacement.<br><strong>So, next time you are given a data science task, consider exploring the alternatives for the python libraries you are already familiar with.</strong></p>
+    <p>I also just stumbled upon a YouTube video that showcasing <a rel="noreferrer noopener" href="https://github.com/pytorch/pytorch" target="_blank">pytorch</a> as <a rel="noreferrer noopener" href="https://github.com/numpy/numpy" target="_blank">numpy</a> replacement.<br><b>So, next time you are given a data science task, consider exploring the alternatives for the python libraries you are already familiar with.</b></p>
   </div>
 </div>
 <br>
@@ -202,12 +202,12 @@ Another reason is that I’m not familiar with the concept of multi-processing a
 Conceptually, by default, python (or jupyter notebook) scripts only utilizes one core from our machine. Whereas, our machine usually have multiple cores. Of course we want to utilizes more than just one of them to speed up our processes.
 
 <figure>
-    <img src="2_7_singleprocessing.png" alt="Your Image">
+    <img src="2_7_singleprocessing.png" alt="single processing">
     <figcaption>Illustration of what happened when you run a python script WITHOUT multi-processing<a href="#link4">[4]</a></figcaption>
 </figure>
 
 <figure>
-    <img src="2_8_multiprocessing.png" alt="Your Image">
+    <img src="2_8_multiprocessing.png" alt="multi processing">
     <figcaption>Illustration of what happened when you run a python script WITH multi-processing<a href="#link4">[4]</a></figcaption>
 </figure>
 
@@ -247,9 +247,9 @@ But I’ll take this little victory ¯\(ツ)/¯.
 
 I’ll write an update on my journey to find the fastest solution. Later!
 
-<figure>
-    <img src="2_9_meme.png" alt="Your Image" height="500">
-</figure>
+<center><img src="2_9_meme.png" style="height:400px;"></center>
+
+<!-- <figure><img src="2_9_meme.png" alt="meme" height="500"></figure> -->
 
 # Sources
 

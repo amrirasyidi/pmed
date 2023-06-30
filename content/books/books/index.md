@@ -58,6 +58,7 @@ I like to be a moderate, I like to challange my own belief. That's why, sometime
 - [Bung Karno](https://www.goodreads.com/book/show/2549396.Bung_Karno): Penyambung Lidah Rakyat Indonesia
 
 # Philosophy/Ideology(?)
+- [Falsafah Hidup](https://www.goodreads.com/book/show/1772421.Falsafah_Hidup)
 - [Moral Tribes](https://www.goodreads.com/book/show/18875712-moral-tribes): Emotion, Reason, and the Gap Between Us and Them
 - [How to Be an Anticapitalist in the Twenty-First Century](https://www.goodreads.com/book/show/49507995-how-to-be-an-anticapitalist-in-the-twenty-first-century)
 - [The Righteous Mind](https://www.goodreads.com/book/show/15992204-the-righteous-mind): Why Good People are Divided by Politics and Religion

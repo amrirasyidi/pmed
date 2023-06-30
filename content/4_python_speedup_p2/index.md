@@ -37,7 +37,7 @@ This project “forced” me to learn many tools and pointed out my weakness, or
 
 ## Alternative comparison
 
-On the previous post, I mentioned about using faster libraries as one of the option to make the script faster. In this project, the hardest part was to work with the geospatial data. Only a handful libraries can handle geospatial data processing. I tried 3 of them in search of the fastest one. Here’s the result, roughly.
+On the [previous post](@/2_python_speedup_p1/index.md), I mentioned about using faster libraries as one of the option to make the script faster. In this project, the hardest part was to work with the geospatial data. Only a handful libraries can handle geospatial data processing. I tried 3 of them in search of the fastest one. Here’s the result, roughly.
 
 <figure>
     {{ image( img="4_1_speed_comp.png", alt="bar graph", style="border-radius: 0px; width: 100%;" ) }}
