@@ -64,30 +64,15 @@ Extending on the first point, this one is a little bit outside of the applicatio
     <img src="5_1_cvbefore.png" style="height:500px">
     <figcaption>CV before "enlightenment"</figcaption>
 </center>
+<br>
 
 <center>
     <img src="5_2_cvafter1.jpg" style="height:500px">
 </center>
-
 <center>
-    <img src="5_3_cvafter2.jpg" style="height:500px">
-    <figcaption>CV before "enlightenment"</figcaption>
-</center>
-
-<!-- <div text-align="center">
-<figure>
-    {{ image( img="5_1_cvbefore.png", alt="cv before", style="border-radius: 0px; width: 60%;" ) }}
-    <figcaption>CV before "enlightenment"</figcaption>
-</figure>
-</div> -->
-
-<!-- <figure>
-    {{ image( img="5_2_cvafter1.jpg", alt="cv after", style="border-radius: 0px; width: 60%;" ) }}
-</figure>
-<figure>
-    {{ image( img="5_3_cvafter2.png", alt="cv after", style="border-radius: 0px; width: 60%;" ) }}
+    <img src="5_3_cvafter2.png" style="height:230px">
     <figcaption>CV after "enlightenment"</figcaption>
-</figure> -->
+</center>
 
 I’m sure there are still things I can improve from my current CV, but compared to the “first” version of my CV, which seems very empty after looking at my current CV, I can point out the improvements I made.
 And I think it is actually normal to have this kind of progress, first cv should seem empty compared to your latest one.
