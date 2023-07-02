@@ -16,8 +16,6 @@ I'm sharing here what could you do to learn data science using Python more effec
 1. Focus on creating a simple real product
 1. Problem/solution-oriented learning
 
-<p style="color:red">As a context, I think my take here will be <b>more relevant</b> for data scientists in the professional industry, rather than the ones in the academic field.</p>
-
 ---
 
 The year was 2018 when I was first introduced to Python. A friend of mine, mentioned it when I’m asking about data processing tools. He told me about this magical language where I can have the flexibility to play with data, a very versatile one, he’s almost described it as “*like MATLAB, but with steroid*” (I was using MATLAB back then). 
@@ -68,7 +66,7 @@ But I mean, there's not so much you can do about the math & stats aspect while d
 To be fair though, I got 2 semesters of both Calculus and Statistics, I got a decent grade too (let me brag a bit while we're at it). And my whole major, Geodetic Engineering, is about making a mathematical calculation on the earth, it is a branch of applied math.
 
 So no doubt, having those 2 in my armoury, make it easier for me to grasp the math and stats concept while learning data science.
-What I'm trying to say is, while of course math & stats are important in data science,**don't focus on them *too much***.
+What I'm trying to say is, while of course math & stats are important in data science, **don't focus on them *too much***.
 
 <div class="callout-idea">
   <div class="callout-icon">
@@ -80,7 +78,7 @@ What I'm trying to say is, while of course math & stats are important in data sc
 </div>
 <br>
 
-Again, this might be more relatable for a data scientist outside the research/academic field. I would also love to hear your opinion about "_What minimal math theories, knowledge, or skills does a data science need to thrive in the industry?_".
+If someone ask you "_What minimal math theories, knowledge, or skills does a data science need to thrive in the industry?_", what would be your answer?
 
 You don't have to delve deep into math unless you really need to master it in your project. The thing is, there are many PhDs mastering these math concepts for data science. I don't think I have a chance of being at the same level as them about the math & stats concepts, especially as a self-taught. So when it comes to the math & stats concept, it is better to put yourself in a more "worker" position rather than the "thinker", a "cook" rather than a "chef". But when it comes to the practical side, oftentimes you don't need a PhD in your title, that's why I think you better put more effort and time to cover this side.
 
@@ -184,11 +182,13 @@ Or just put it aside and take a break really.
 
 Some other things that are worth mentioning about learning data science.
 
-## Certificate of Completion Means Nothing...
+## "Certificate of Completion" Means Nothing...
 
 ...if you don't put what you've learned into practice.
 
-You'll be expected to bring something to the table. And those certificates _alone_ won't do shit. That's why, it is better to prolong the "project" section in your cv rather than the "certificates" section.
+You'll be expected to bring something to the table. And those certificates _alone_ won't do shit.
+
+While I still think projects are more valueable to be showcased, there's no shame in taking a data science or machine learning course. Just remind yourself not to chase those certificates mindlessly.
 
 ## You Are A Problem Solver
 
