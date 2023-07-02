@@ -1,6 +1,6 @@
 +++
 title = "Better Way to Learn Data Science"
-date = 2023-06-29
+date = 2023-06-30
 authors = ["Amri Rasyidi"]
 description = "My retro on how I can learn data science better."
 
@@ -238,4 +238,4 @@ Thanks for reading this far! I hope you have an enjoyable data science learning 
 
 When you feel like stuck, remember that progress is not always linear.
 
-<img src="7_7_meme.jpg">
+<img src="7_7_meme.png">

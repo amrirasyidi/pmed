@@ -6,7 +6,7 @@ description = "This post recaps my data science project experience and how I tri
 
 [taxonomies]
 series = ["python-speedup"]
-tags = ["python", "how-to"]
+tags = ["data-science", "python", "how-to"]
 +++
 
 <figure>
@@ -248,8 +248,6 @@ But I’ll take this little victory ¯\(ツ)/¯.
 I’ll write an update on my journey to find the fastest solution. Later!
 
 <center><img src="2_9_meme.png" style="height:400px;"></center>
-
-<!-- <figure><img src="2_9_meme.png" alt="meme" height="500"></figure> -->
 
 # Sources
 

@@ -166,16 +166,16 @@ a.sidebar-nav-item:focus {
     margin-left: 22rem;
     margin-right: 4rem;
   }
+  .toc {
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    align-self: flex-start;
+    padding: 0px;
+    text-align: right;
+  }
 }
 
-.toc {
-  position: fixed;
-  top: 100px;
-  right: 10px;
-  align-self: flex-start;
-  padding: 0px;
-  text-align: right;
-}
 
 /*
  * Reverse layout
