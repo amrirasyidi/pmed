@@ -18,7 +18,7 @@ I'm sharing here what could you do to learn data science using Python more effec
 
 ---
 
-The year was 2018 when I was first introduced to Python. A friend of mine, mentioned it when I’m asking about data processing tools. He told me about this magical language where I can have the flexibility to play with data, a very versatile one, he’s almost described it as “*like MATLAB, but with steroid*” (I was using MATLAB back then). 
+The year was 2018 when I was first introduced to Python. A friend of mine mentioned it when I asked about data processing tools. He told me about this magical language where I can have the flexibility to play with data, a very versatile one, he’s almost described it as “*like MATLAB, but with steroid*” (I was using MATLAB back then). 
 
 And I thought, “*wut?*”
 

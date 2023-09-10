@@ -9,36 +9,37 @@ front_page = false
 toc = true
 +++
 
-Below are some books that I've read, sorted based on when I start reading it, roughly. From the latest to the oldest. Can you guess on what basis do I sort the grouping?
+Below are some books that I've read, sorted based on when I start reading it, roughly. From the latest to the oldest. Most of the other books I've read or currently reading, can be found on my [goodreads profile](https://www.goodreads.com/user/show/115973272-amri).
 
-This list only include non-fiction books, because I rarely read a fiction and only don't quite remember what I've read. Maybe later, I'll only include the books that are memorable for me, or something I can recommend.
+Can you guess on what basis do I sort the grouping?
 
 **Symbol meaning**
 
 - 🚀: provoke curiosity<br>
 I want to write "recommended", but somehow that word doesn't really fit of what I'm trying to say.
 - ⚖️: balancer<br>
-I like to be a moderate, I like to challange my own belief. That's why, sometimes I intentionally look for a critique or the opposite idea of what I've just read.
-- ⏸️: unfinished
+I like to be a moderate person, I like to challange my own belief. That's why, sometimes I intentionally look for a critique or the opposite idea of what I've just read.
+- ⏸️: unfinished. Usually due to lost of interest.
 
-# History, Social/Economy, Politic
+# History/Politic
 - 🚀[The Jakarta Method](https://www.goodreads.com/book/show/50067614-the-jakarta-method): Washington's Anticommunist Crusade and the Mass Murder Program that Shaped Our World
-- [Doughnut Economics](https://www.goodreads.com/book/show/34828467-doughnut-economics): Seven Ways to Think Like a 21st-Century Economist
 - ⏸️[The Great Arab Conquests](https://www.goodreads.com/book/show/20105409-the-great-arab-conquests): How the Spread of Islam Changed the World We Live In
 - ⏸️[The Panama Papers](https://www.goodreads.com/book/show/34790452-the-panama-papers): Breaking the Story of How the Rich and Powerful Hide Their Money
 - ⏸️[Seeing Like a State](https://www.goodreads.com/book/show/53498823-seeing-like-a-state): How Certain Schemes to Improve the Human Condition Have Failed
 - [Prisoners of Geography](https://www.goodreads.com/book/show/25135194-prisoners-of-geography): Ten Maps That Tell You Everything You Need to Know About Global Politics
-- [Gun, Germs, & Steel](https://www.goodreads.com/book/show/1842.Guns_Germs_and_Steel)
-- [Deus Homo](https://www.goodreads.com/en/book/show/31138556)
+- [Gun, Germs, & Steel](https://www.goodreads.com/book/show/1842.Guns_Germs_and_Steel): The Fates of Human Societies
+- [Deus Homo](https://www.goodreads.com/en/book/show/31138556): A History of Tomorrow
 - 🚀[Why Nations Fail](https://www.goodreads.com/book/show/12158480-why-nations-fail): The Origins of Power, Prosperity, and Poverty
 - [The Fall of The Khilafah](https://www.goodreads.com/book/show/31753104-the-fall-of-the-khilafah)
 - [Pulau Run](https://www.goodreads.com/book/show/29963067-pulau-run): Magnet Rempah-rempah Nusantara
 - [Sejarah dan Kebudayaan Islam](https://www.goodreads.com/en/book/show/18776220)
 
 # Tech/Science
+- 🚀[Walkable City](https://www.goodreads.com/book/show/18892033-walkable-city): How Downtown Can Save America, One Step at a Time
 - 🚀[Loonshots](https://www.goodreads.com/book/show/41946693-loonshots): How to Nurture the Crazy Ideas That Win Wars, Cure Diseases, and Transform Industries
 - [A Thousand Brains](https://www.goodreads.com/book/show/54902517-a-thousand-brains): A New Theory of Intelligence
 - [The Omnivore's Dilemma](https://www.goodreads.com/book/show/4906098-the-omnivore-s-dilemma): A Natural History of Four Meals
+- [Doughnut Economics](https://www.goodreads.com/book/show/34828467-doughnut-economics): Seven Ways to Think Like a 21st-Century Economist
 - [How to Avoid a Climate Disaster](https://www.goodreads.com/book/show/49007883-how-to-avoid-a-climate-disaster): The Solutions We Have and the Breakthroughs We Need
 - 🚀[The Plastics Paradox](https://www.goodreads.com/book/show/52678366-the-plastics-paradox): Facts for a Brighter Future
 - 🚀[A Bright Future](https://www.goodreads.com/book/show/42432171-a-bright-future): How Some Countries Have Solved Climate Change and the Rest Can Follow
@@ -48,6 +49,7 @@ I like to be a moderate, I like to challange my own belief. That's why, sometime
 # Leadership/Business
 - 🚀[The Hard Thing About Hard Things](https://www.goodreads.com/book/show/20657434-the-hard-thing-about-hard-things): Building a Business When There Are No Easy Answers
 - [HBR's 10 Must Reads on Leadership](https://www.goodreads.com/book/show/10307141-hbr-s-10-must-reads-on-leadership)
+- [Kebijakan Ahok](https://www.goodreads.com/book/show/52720701-kebijakan-ahok)
 - [Outliers](https://www.goodreads.com/book/show/3228917-outliers): The Story of Success
 
 # Biography
