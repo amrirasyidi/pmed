@@ -1,6 +1,6 @@
 +++
 title = "What Data Science Really Is (According To Me)"
-date = 2023-06-29
+date = 2023-09-29
 authors = ["Amri Rasyidi"]
 description = "The evolution of data science from my perspective"
 draft = true
@@ -10,8 +10,14 @@ series = []
 tags = ["data-science", "career-retro"]
 +++
 
+
 <figure>
-    {{ image( img="7_1_ds.png", alt="DS expectation", style="border-radius: 0px; width: 100%;" ) }}
+  <img src="7_1_ds_de.gif" alt="header">
+  <figcaption>What a title huh?</a></figcaption>
+</figure>
+
+<figure>
+    {{ image( img="7_1_ds_de.gif", alt="DS expectation", style="border-radius: 0px; width: 100%;" ) }}
 </figure>
 <figure>
     {{ image( img="7_2_de.png", alt="DS reality", style="border-radius: 0px; width: 100%;" ) }}

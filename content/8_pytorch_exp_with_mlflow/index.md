@@ -2,7 +2,7 @@
 title = "PyTorch Experimentation in Dagshub With MLflow"
 date = 2023-09-10
 authors = ["Amri Rasyidi"]
-description = "The integration of MLflow within Dagshub to do deep learning experimentation"
+description = "The integration of MLflow within Dagshub to do deep learning experimentation using pytorch"
 draft = false
 
 [taxonomies]
