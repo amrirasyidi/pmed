@@ -3,7 +3,7 @@ title = "XGBoost, MLflow, Dagshub, and Optuna for Time Series Forecasting"
 date = 2023-09-22
 authors = ["Amri Rasyidi"]
 description = "Using optuna for XGBoost experimentation in time series forecasting use case"
-draft = true
+draft = false
 
 [taxonomies]
 series = []
@@ -50,14 +50,12 @@ def objective(trial):
         'max_depth': trial.suggest_int('max_depth', 3, 10),
         'eta': trial.suggest_float('eta', 1e-4, 0.1),
         'subsample': trial.suggest_float('subsample', 0.4, 0.8),
-        # 'colsample_bytree': trial.suggest_float('colsample_bytree', 0.4, 0.8),
         'eval_metric': 'rmse',
         'lambda': trial.suggest_loguniform('lambda', 1e-8, 1.0),
         'alpha': trial.suggest_loguniform('alpha', 1e-8, 1.0),
     }
     
     # training pipeline
-    # callback = optuna.integration.XGBoostPruningCallback(trial, "test-rmse")
     xgb_model, train_pred, train_rmse, val_pred, val_rmse, eval_result = xgb_engine.xgb_train(
         train_x,
         train_y,
@@ -147,11 +145,12 @@ I never tried random search, because just by the name I found it stupid. Like, w
 
 As opposed to random, in grid search we first define the list of hyperparameters along with its values. Then computes every possible combination of the hyperparameters and its values
 
-Now, Optuna’s default sampler (a way to search for the hyperparameters) is Tree-structured Parzed Estimater (TPE) [[source]](https://medium.com/optuna/using-optuna-to-optimize-xgboost-hyperparameters-63bfcdfd3407). This is a form of Bayesian optimization framework. When “Bayesian” is in the house, that usually means the ability to learn from the past. So it’s kind of random, but not so random.
+Now, Optuna’s default sampler (a way to search for the hyperparameters) is Tree-structured Parzed Estimater (TPE) [[source]](https://medium.com/optuna/using-optuna-to-optimize-xgboost-hyperparameters-63bfcdfd3407). This is a form of Bayesian optimization framework. When “Bayesian” is in the house, that usually means the ability to learn from the past. So TPE is kind of random, but not so random.
 
-Optuna uses a concept of study and trial, as follows:
-- Trial: a single execution of the objective function
-- Study: optimization based on an objective function
+Optuna uses a concept of study, trial, and objective (this last one is my addition), as follows:
+- `trial`: a single execution of the objective function
+- `study`: optimization based on an objective function
+- `objective` function: a function that returns a value which will be optimized
 
 # The MRE
 
@@ -169,7 +168,7 @@ Here is the pseudocode of what we are trying to achieve
     1. Calculate the metrics
     1. Visualize the result
 
-Doing trial and error in jupyter notebook can get very messy very quickly, that is why I like to modularize whenever I can. By modularize I mean turning some of the script into classes or functions that is reusable to make the notebook looks cleaner.
+Doing trial and error in jupyter notebook can get very messy very quickly, that is why I like to modularize whenever I can. By modularize I mean turning some of the script into classes or functions that are reusable to make the notebook looks cleaner.
 
 In the script below I'll be calling my custom functions and include them where I think necessary. To make the post more concise, I'll not show every single one of them, and maybe show the glimpse of some of them.
 
@@ -324,7 +323,7 @@ That's it! The minimally working training pipeline. That is our focus right now 
 
 This one should be short, because we only need to connect to our dagshub uri and put some additional logging.
 
-To prevent others looking at my credentials, I put my dagshub credentials in a json file inside a secret folder. This secret folder also added to the .gitignore file to make sure it only exist on my local machine.
+To prevent others looking at my credentials, I put my dagshub credentials in a json file inside a secret folder (yes, it's a folder named "secret"). This secret folder also added to the .gitignore file to make sure it only exist on my local machine.
 
 If you don't know where to find the credentials, check it [here](@/8_pytorch_exp_with_mlflow/index.md#dagshub).
 
@@ -392,8 +391,7 @@ study = optuna.create_study(study_name=experiment_name, pruner=pruner, direction
 study.optimize(objective, n_trials=2)
 ```
 Here is what I understand
-1. The `objective` function which is a trial, will return a metric, in this case validation rmse. The `study` uses it as an evaluation metrics, deciding whether the previous trial perform worse or better than the next one. In this case, we set the `direction="minimize"`, meaning that the study will say a trial is better if the validation rmse is lower than the previous one. <br>
-We use `pruner` in case a trial is not better after several epoch, so it will stop early before reaching the complete epoch (`num_round`), hence saving our resources.
+1. The `objective` function which is a trial, will return a metric, in this case validation rmse. The `study` uses it as an evaluation metric, deciding whether the previous trial perform worse or better than the next one. In this case, we set the `direction="minimize"`, meaning that the study will say a trial is better if the validation rmse is lower than the previous one. <br>
 
 1. Then we call the `study.optimize()` using our custom function `objective`, and define how many trials we are going to try. In this case, since we are just trying out the syntax, we choose 2 so we don't waste so much time. Just to see is it working or not.
 
@@ -450,8 +448,9 @@ First we are going to improve the training pipeline by including `evals` and `ev
 I'm not really sure if this is true, but in case you want to see the `evals_result`, you are required to define the `evals` variables. The record of the `evals_result` will depends on:
 1. `objective` inside `param`<br>
 Since we are using `reg:squarederror`, `evals_result` will record the **squared error** from each epoch.
-2. Value of `evals` in `xgb.train`, in this case `watch_list`.<br>
+1. Value of `evals` in `xgb.train`, in this case `watch_list`.<br>
 Since it has `dtrain` (aliased with 'train') and `dval` (aliased with 'valid') we will be recording the squared error from both training and validation data.
+1. We use `early_stopping_rounds` in case a trial is not better after several epoch, so it will stop early before reaching the complete epoch (`num_round`), hence saving our resources.
 
 Correct me if I'm wrong.
 
