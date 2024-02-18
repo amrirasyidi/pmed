@@ -3,7 +3,7 @@ title = "Upgrading The Basic: Polars Edition"
 date = 2023-09-22
 authors = ["Amri Rasyidi"]
 description = "Introduction to pandas alternative: polars"
-draft = false
+draft = true
 
 [taxonomies]
 series = []
