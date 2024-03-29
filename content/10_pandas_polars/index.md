@@ -1,9 +1,9 @@
 +++
 title = "Upgrading The Basic: Polars Edition"
-date = 2023-09-22
+date = 2024-03-29
 authors = ["Amri Rasyidi"]
-description = "Introduction to pandas alternative: polars"
-draft = true
+description = "An introduction to pandas alternative: polars"
+draft = false
 
 [taxonomies]
 series = []
@@ -42,7 +42,7 @@ df_pandas = pd.read_parquet(r"path\to\file.parquet")
 df_eager = pl.read_parquet(r"path\to\file.parquet")
 df_lazy = pl.scan_parquet(r"path\to\file.parquet")
 ```
-I will touch on this eager and lazy concept briefly later.
+I will touch on this eager and lazy concept briefly <a href="#what-about-the-lazy-thingy">later</a>.
 
 ## Most common syntaxes
 After reading the data into memory, you may want to do manipulation or analysis. There are common syntaxes in polars that you will see quite often once you get into it.
@@ -148,44 +148,21 @@ After reading the data into memory, you may want to do manipulation or analysis.
 
 ## What about the lazy thingy?
 
-Evaluation and transformation
+From the documentation: 
+_"In the eager API the query is executed immediately while in the lazy API the query is only evaluated once it is 'needed'"_
+
+Simply said, preventing the evaluation until it is needed allows the query planner to performs various optimization, leading to faster and more efficient query execution.
 
 # Why polars?
 
-## Fast
-Utilizes all available cores on your machine.
-Optimizes queries to reduce unneeded work/memory allocations.
+There are some reasons polars might be "an upgrade" from pandas. First, it is fast!  Polars utilizes all available cores on your machine and optimizes queries to reduce unneeded work/memory allocations. Polars can also handles datasets much larger than your available RAM.
 
-## this
-Handles datasets much larger than your available RAM.
-
-## this
-Has an API that is consistent and predictable.
-Has a strict schema (data-types should be known before running the query).
-
-## other
-- show data type
-- nice syntax (feels like sql)
-    - there is actually a way to use sql in polars
-- easy to learn
-    know pandas = know polars 80%
+There are also small things that I like about polars:
+- Show data type. You don't have to execute 2 lines of codes to check the overview of the data and check the data type from each columns.
+- Nice syntax (feels like sql). There is actually a way to use sql in polars. Is is also _feels_ consistent and predictable.
+- Easy to learn. Know pandas = know polars 80%
 
 # Closing thought
 
-
-<!-- <figure>
-  <img src="9_1_header.png" alt="header">
-  <figcaption>What a title huh?</a></figcaption>
-</figure> -->
-
-<!-- [previous post](@/8_pytorch_exp_with_mlflow/index.md) -->
-
-<!-- <div class="callout-idea">
-  <div class="callout-icon">
-    💡
-  </div>
-  <div class="callout-content">
-    <p>in case you want to see the <code>evals_result</code> , you are required to define the <code>evals</code> variables</p>
-  </div>
-</div> -->
+I think it is worth to learn polars. Heck, if I have to tell others what to learn to master data science with python, I would suggest pandas and polars (if not only polars).
 
