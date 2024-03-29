@@ -16,7 +16,7 @@ In this post, I want to introduce an alternative (or rather a complement?) to pa
 
 Enter [<b>polars</b>](https://pola-rs.github.io/polars/).
 
-Let's get straight to the showcase, then some explanation later. Also, if you want to see the performance comparison of pandas vs 
+Let's get straight to the showcase, then some explanation later. Also, if you want to see the performance comparison of pandas vs polars, you can check my [post about speeding up python](@/2_python_speedup_p1/index.md#the-alternatives).
 
 # Get started
 ## Install, import, and read data
