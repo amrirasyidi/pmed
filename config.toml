@@ -10,7 +10,6 @@ build_search_index = false
 theme = "hyde"
 title = "Painfully Mediocre"
 description = "rants & memes"
-generate_feed = true
 
 # list of series and tags
 # series = ["unemployment_arc", "learn-in-public", "python-speedup", "core-value"]
