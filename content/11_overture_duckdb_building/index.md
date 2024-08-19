@@ -13,8 +13,15 @@ tags = ["data-science", "how-to", "python", "geospatial"]
 # The End Result
 
 This is what we are going to make today.
-
-This is building footprint data within Kota Bogor, Indonesia.
+<figure><center>
+  <img src="11_0_final_result.png" alt="final result">
+</center></figure>
+<figure><center>
+  <img src="11_0_final_result_zoom0.png" alt="final result zoom">
+</center></figure>
+<figure><center>
+  <img src="11_0_final_result_zoom1.png" alt="final result zoom with caption">
+</center></figure>
 
 You can access my code [here](https://gitlab.com/comrades_0/data_reading)
 
@@ -22,7 +29,6 @@ You can access my code [here](https://gitlab.com/comrades_0/data_reading)
 
 <figure><center>
   <img src="11_1_overture_building.jpg" alt="prediction of training data">
-  <figcaption>prediction of training data</a></figcaption>
 </center></figure>
 
 The goal is quite straightforward, we want to extract building footprint data inside some administrative boundary, in this case, Kota Bogor.
@@ -51,10 +57,11 @@ pip install duckdb --upgrade
 Then you should create a folder similar to this, or you don’t have to if you clone my git repo.
 
 ```bash
-tree                                                  
 .
 ├── db
-│   └── datareading.db
+│   ├── datareading.db
+│   └── datareading.db.tmp
+│       └── duckdb_temp_block-4611686018427388971.block
 ├── notebook
 │   └── overture_building.ipynb
 ├── readme.md
@@ -85,6 +92,10 @@ PROJECT_DIR = WORK_DIR.parent
 
 SQL_DIR = PROJECT_DIR / 'sql'
 DB_DIR = PROJECT_DIR / 'db'
+
+for dir in [SQL_DIR, DB_DIR]:
+    if not os.path.exists(dir):
+        os.mkdir(dir)
 ```
 
 Since we are going to download geospatial data from overture map, we will have to install `spatial` extension for duckdb.
@@ -105,7 +116,7 @@ conn.execute("SET s3_region='us-west-2';")
 
 ## Get Administrative Boundary
 
-We will download the administrative boundary from [overture map’s division data](https://docs.overturemaps.org/guides/divisions/) into `datareading.db`. To get the specific city boundary and bounding box, some exploration will be needed, that is to find what column to use to filter, and what value to be filled to the filter. In my case, I do the filtering twice, first by the country `AND country = "ID"`, then search for the specific id by doing some eyeballing to be used on the second layer . So this part will depend on your knowledge of the table/data source itself.
+We will download the administrative boundary from [overture map’s division data](https://docs.overturemaps.org/guides/divisions/) into `datareading.db`. To get the specific city boundary and bounding box, some exploration will be needed, that is to find what column to use to filter, and what value to be filled to the filter. In my case, I do the filtering twice, first by the country `AND country = 'ID'`, then search for the specific id by doing some eyeballing to be used on the second layer . So this part will depend on your knowledge of the table/data source itself.
 
 I put some of the queries (the one that contain `CREATE`) into a dedicated `.sql` files. This one is the query to get the administrative in Indonesia, you can modify the condition as you like.
 
@@ -123,7 +134,7 @@ FROM
     read_parquet("s3://overturemaps-us-west-2/release/2024-07-22.0/theme=divisions/type=division_area/*", hive_partitioning=1)
 WHERE
     TRUE
-    AND country = "ID"
+    AND country = 'ID';
 ```
 
 In the notebook, we simply read the file, then execute in our connection
@@ -180,7 +191,7 @@ We will use the bounding box information from our previously created table, `ind
 
 After we get the building inside the bbox from overture, we filter it again so the final table stores only building within the boundary.
 
-This is `bogor_building.sql` 
+This is `bogor_building.sql`.
 
 ```sql
 CREATE TABLE IF NOT EXISTS bogor_building AS
@@ -229,8 +240,7 @@ WHERE
 
 ```
 
-We can run it in jupyter notebook by executing this cell
-
+We can run it in jupyter notebook by executing this cell.
 ```python
 # Read the SQL file
 with open(SQL_DIR / 'bogor_building.sql', 'r') as sql_file:
@@ -239,6 +249,7 @@ with open(SQL_DIR / 'bogor_building.sql', 'r') as sql_file:
 # Execute the SQL query
 conn.execute(sql_query)
 ```
+In my notebook however, you will see the cell to create `bogor_building` table is longer than this. This is because, when I run the query, I got `OutOfMemoryError`, it seems that my machine can handle executing 2 CTE, hence I create an alternative in case the sql script doesn't work. I refactor the logic so it only has 1 cte, then get the bounding box by running a separate query.
 
 Similar to the previous step on getting the administrative boundary, we will also turn it into geopandas dataframe.
 
@@ -269,7 +280,14 @@ viz((
     bogor_building_gdf
 ))
 ```
+<figure><center>
+  <img src="11_0_final_result.png" alt="final result">
+</center></figure>
 
-Das it. I hope you enjoyed the tutorial and successfully try it on yourself.
+# What's next
+
+As you can see in our final result, we can still improve the coloring, layer order, and many other things. But the `viz` syntax is not as customizable, that is why, you may want to consider using `Map` and `PolygonLayer` to make other customization.
+
+But I guess das it for today. I hope you enjoyed the tutorial and successfully try it on yourself.
 
 See you later!
