@@ -12,8 +12,24 @@ title = "Painfully Mediocre"
 description = "rants & memes"
 
 # list of series and tags
-# series = ["unemployment_arc", "learn-in-public", "python-speedup", "core-value"]
-# tags = ["reading", "python", "data-science", "career-retro", "me-think", "how-to"]
+# series = [
+#    "unemployment_arc", -> the story during my unemployment period (zenius lay-off)
+#    "learn-in-public",
+#    "python-speedup", -> how to make python faster
+#    "core-value" -> what I deeply believe
+# ]
+# tags = [
+#    "reading",
+#    "python",
+#    "data-science",
+#    "career-retro",
+#    "me-think",
+#    "how-to",
+    #    "beginner", -> basic use of a library/framework or the combination of it
+    #    "intermediate", -> add some processing
+    #    "advanced", -> low level?, processing with concepts that needed to be understood before, unfamiliar/uncommon data sources,
+#    "geospatial"
+# ]
 
 taxonomies = [
     { name = "tags" },
