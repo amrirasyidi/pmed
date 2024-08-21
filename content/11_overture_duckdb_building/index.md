@@ -13,15 +13,7 @@ tags = ["data-science", "how-to", "python", "geospatial"]
 # The End Result
 
 This is what we are going to make today.
-<figure><center>
-  <img src="11_0_final_result.png" alt="final result">
-</center></figure>
-<figure><center>
-  <img src="11_0_final_result_zoom0.png" alt="final result zoom">
-</center></figure>
-<figure><center>
-  <img src="11_0_final_result_zoom1.png" alt="final result zoom with caption">
-</center></figure>
+<p><center><img src="11_0_demo.gif"></center></p>
 
 You can access my code [here](https://gitlab.com/comrades_0/data_reading)
 
